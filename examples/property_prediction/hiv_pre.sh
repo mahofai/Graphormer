@@ -3,7 +3,7 @@
 # Licensed under the MIT License.
 
 n_gpu=1
-epoch=4
+epoch=10
 max_epoch=$((epoch + 1))
 batch_size=128
 tot_updates=$((33000*epoch/batch_size/n_gpu))

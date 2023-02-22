@@ -1,0 +1,111 @@
+{
+  "arch": "x86_64",
+  "build": "hf5aa513_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/label/cuda-11.3.0/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/user/mahaohui/miniconda3/pkgs/libcusparse-11.5.0.58-hf5aa513_0",
+  "features": "",
+  "files": [
+    "include/cusparse.h",
+    "include/cusparse_v2.h",
+    "lib/libcusparse.so",
+    "lib/libcusparse.so.11",
+    "lib/libcusparse.so.11.5.0.58",
+    "lib/libcusparse_static.a",
+    "lib/stubs/libcusparse.so",
+    "src/cusparse_fortran.c",
+    "src/cusparse_fortran.h",
+    "src/cusparse_fortran_common.h"
+  ],
+  "fn": "libcusparse-11.5.0.58-hf5aa513_0.tar.bz2",
+  "link": {
+    "source": "/user/mahaohui/miniconda3/pkgs/libcusparse-11.5.0.58-hf5aa513_0",
+    "type": 1
+  },
+  "md5": "f13357e26f29b5e36e35203fe78cb7cb",
+  "name": "libcusparse",
+  "package_tarball_full_path": "/user/mahaohui/miniconda3/pkgs/libcusparse-11.5.0.58-hf5aa513_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/cusparse.h",
+        "path_type": "hardlink",
+        "sha256": "cb6964fe6342a71aa3d99fecb402bb0209c32f3d736b06200d727586f89283f6",
+        "sha256_in_prefix": "cb6964fe6342a71aa3d99fecb402bb0209c32f3d736b06200d727586f89283f6",
+        "size_in_bytes": 325474
+      },
+      {
+        "_path": "include/cusparse_v2.h",
+        "path_type": "hardlink",
+        "sha256": "8e41f603d85873e4c4174bee43f4aeadb84f3441e460650846ec4a5e1140aa7c",
+        "sha256_in_prefix": "8e41f603d85873e4c4174bee43f4aeadb84f3441e460650846ec4a5e1140aa7c",
+        "size_in_bytes": 2587
+      },
+      {
+        "_path": "lib/libcusparse.so",
+        "path_type": "softlink",
+        "sha256": "ceb7a70d4e7d76b3ed2c0421cdfba3416fbd6a7ec038167c21b1fbcd37820bef",
+        "size_in_bytes": 228029568
+      },
+      {
+        "_path": "lib/libcusparse.so.11",
+        "path_type": "softlink",
+        "sha256": "ceb7a70d4e7d76b3ed2c0421cdfba3416fbd6a7ec038167c21b1fbcd37820bef",
+        "size_in_bytes": 228029568
+      },
+      {
+        "_path": "lib/libcusparse.so.11.5.0.58",
+        "path_type": "hardlink",
+        "sha256": "ceb7a70d4e7d76b3ed2c0421cdfba3416fbd6a7ec038167c21b1fbcd37820bef",
+        "sha256_in_prefix": "ceb7a70d4e7d76b3ed2c0421cdfba3416fbd6a7ec038167c21b1fbcd37820bef",
+        "size_in_bytes": 228029568
+      },
+      {
+        "_path": "lib/libcusparse_static.a",
+        "path_type": "hardlink",
+        "sha256": "05675deadf382a226a8490617308a311547f73eac6f4d79b435837a7a853dc4d",
+        "sha256_in_prefix": "05675deadf382a226a8490617308a311547f73eac6f4d79b435837a7a853dc4d",
+        "size_in_bytes": 250638498
+      },
+      {
+        "_path": "lib/stubs/libcusparse.so",
+        "path_type": "hardlink",
+        "sha256": "467fede04dd3e1ad7f467bb0f5bff1e87659992c770ebfc65663383ac91e5868",
+        "sha256_in_prefix": "467fede04dd3e1ad7f467bb0f5bff1e87659992c770ebfc65663383ac91e5868",
+        "size_in_bytes": 72120
+      },
+      {
+        "_path": "src/cusparse_fortran.c",
+        "path_type": "hardlink",
+        "sha256": "e3e460c107dcc0df54e768f807d1f3cc9441f02963b140e5d648e388d45bf2fa",
+        "sha256_in_prefix": "e3e460c107dcc0df54e768f807d1f3cc9441f02963b140e5d648e388d45bf2fa",
+        "size_in_bytes": 86770
+      },
+      {
+        "_path": "src/cusparse_fortran.h",
+        "path_type": "hardlink",
+        "sha256": "06bcaf5b1070fbd1ae01cc17987a91a8f08769f83c691c621e3241e68612b259",
+        "sha256_in_prefix": "06bcaf5b1070fbd1ae01cc17987a91a8f08769f83c691c621e3241e68612b259",
+        "size_in_bytes": 34909
+      },
+      {
+        "_path": "src/cusparse_fortran_common.h",
+        "path_type": "hardlink",
+        "sha256": "902904107b3d2039a616289768c64777ab540b402444d1860be73eafe6a156be",
+        "sha256_in_prefix": "902904107b3d2039a616289768c64777ab540b402444d1860be73eafe6a156be",
+        "size_in_bytes": 15382
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "libcusparse",
+  "size": 308676423,
+  "subdir": "linux-64",
+  "timestamp": 1625794036384,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/nvidia/label/cuda-11.3.0/linux-64/libcusparse-11.5.0.58-hf5aa513_0.tar.bz2",
+  "version": "11.5.0.58"
+}
